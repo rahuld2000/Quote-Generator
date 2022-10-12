@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 90px;
+    color: white;
+    background-color:#646FD4;
+    
+}
+.navbar h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    padding-left: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   min-height: 60vh;
+    width: 70%;
+    font-size: 25px;
+
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+#btn button{
+    font-size: 16px;
+    width: 100px;
+    height: 43px;
+    border-style:none;
+    border-radius: 10px;
+    background-color: #9BA3EB;
+    color: white;
+    cursor: pointer;
+}
+#btn button:hover{
+    background-color: #646FD4;
+}
+
+#quote{
+    color: black;
+    font-family: 'Cinzel', serif;
+    font-weight: 1000;
+    font-size: 22px;
+}
+#author{
+    margin-top: 40px;
+    font-weight: 600;
+}
